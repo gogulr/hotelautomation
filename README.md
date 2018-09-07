@@ -1,4 +1,5 @@
 
+
 Input is taken from the input.txt file
 
 Input Format:
@@ -17,7 +18,9 @@ So, it has installed Motion Sensors at appropriate places and have approached yo
  
 The way the hotel equipments are organised and the requirements for the Controller are listed below: 
 
-● A Hotel can have multiple floors ● Each floor can have multiple main corridors and sub corridors 
+● A Hotel can have multiple floors
+
+● Each floor can have multiple main corridors and sub corridors 
 
 ● Both main corridor and sub corridor have one light each ● Both main and sub corridor lights consume 5 units of power when ON 
 
@@ -53,6 +56,7 @@ Subsequent Inputs from Sensors
 Output from controller for corresponding sensor input 
 
 Default state (when the program is first run) 
+--------------------------------------------
 
 Floor 1
 
@@ -72,6 +76,7 @@ Sub corridor 2 Light 2 : OFF AC : ON
 
 
 Movement in Floor 1, Sub corridor 2 
+-------------------------------------
 
 Floor 1 
 
@@ -91,6 +96,7 @@ Sub corridor 2 Light 2 : OFF AC : ON
 
 
 No movement in Floor 1, Sub corridor 2 for a minute 
+-----------------------------------------------------
 
 Floor 1 
 
@@ -109,7 +115,7 @@ Sub corridor 1 Light 1 : OFF AC : ON
 Sub corridor 2 Light 2 : OFF AC : ON 
 
  
-Since the hotel management is trying this for the first time, it would be changing the requirements as to ​which electronic equipments are controlled and the ​criteria based on which they are controlled. 
+Since the hotel management is trying this for the first time, it would be changing the requirements as to ​which electronic equipments are controlled and the criteria based on which they are controlled. 
 
 Therefore, the solution design should be flexible enough to absorb these changes without a need to make significant changes in the program.
 
